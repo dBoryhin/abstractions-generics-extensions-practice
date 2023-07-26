@@ -40,3 +40,5 @@ foreach (var item in immediateQuery)
 {
     Console.WriteLine(item);
 }
+
+Console.ReadLine();
