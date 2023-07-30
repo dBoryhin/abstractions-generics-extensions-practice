@@ -1,8 +1,9 @@
-﻿Dictionary<string, int> cars = new Dictionary<string, int>
+﻿Dictionary<string, int?> cars = new Dictionary<string, int?>
 {
     { "BMW", 2019 },
     { "Audi", 2020 },
-    { "Mercedes-Benz", 2022 }
+    { "Mercedes-Benz", 2022 },
+    { "Something", null }
 };
 
 Console.WriteLine(string.Join(',', cars));

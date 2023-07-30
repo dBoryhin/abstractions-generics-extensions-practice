@@ -14,3 +14,10 @@ IEnumerable<int> resultQuery = from number in numbers
                                select number;
 
 Console.WriteLine(string.Join(',', resultQuery));
+
+#region Extension
+
+IEnumerable<int> resultExtension = numbers.Where(n => n > 50).OrderBy(number => number);
+Console.WriteLine(string.Join(',', resultExtension));
+
+#endregion Extension

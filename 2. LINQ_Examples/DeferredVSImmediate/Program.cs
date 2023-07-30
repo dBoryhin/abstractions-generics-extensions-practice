@@ -11,6 +11,16 @@ new {Make = "Mercedes-Benz", Model = "E-Class", Year = 2020}
 var deferredQuery = cars.Where(s => s.Make == "Audi");
 var immediateQuery = cars.Where(s => s.Make == "Audi").ToList();
 
+#region Differences
+
+//var immediateQueryCount = immediateQuery.Count;
+//var deferredQueryCount = deferredQuery.Count();
+
+//var car = deferredQuery[1];
+//var car1 = immediateQuery[1];
+
+#endregion Differences
+
 Console.WriteLine("Deferred query result");
 foreach (var item in deferredQuery)
 {

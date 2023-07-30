@@ -1,5 +1,6 @@
 ﻿Stack<string> cars = new Stack<string>();
 cars.Push("BMW");
+cars.Push("Audi");
 cars.Push("Mercedes-Benz");
 
 Console.WriteLine(string.Join(',', cars));

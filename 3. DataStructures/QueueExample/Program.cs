@@ -20,3 +20,10 @@ Console.WriteLine(new string('=', 40));
 
 var item = cars.Peek();
 Console.WriteLine(item);
+
+Console.WriteLine(new string('=', 40));
+
+foreach (var car in cars)
+{
+    Console.WriteLine(car);
+}

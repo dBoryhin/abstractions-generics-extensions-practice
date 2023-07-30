@@ -5,7 +5,12 @@
         int[] numbers = new int[] { 10, 5, 66, 23, 10 };
 
         Console.WriteLine(numbers.Ave()); //custom average method
+
+        #region LINQ
+
         Console.WriteLine(numbers.Average()); // LINQ method
+
+        #endregion LINQ
     }
 }
 
